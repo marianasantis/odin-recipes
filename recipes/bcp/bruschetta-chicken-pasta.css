@@ -1,0 +1,54 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-image: url("../../images/bcpbg.jpg");
+  background-size: contain;
+}
+
+.recipe-card {
+  text-align: center;
+  font-size: 30px;
+}
+
+.image {
+  height: 400px;
+  width: auto;
+  border: 100px;
+  border-radius: 250px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.title {
+  color: #e25d0a;
+  background-color: rgba(255, 255, 255, 0.687);
+  border-radius: 150px;
+  width: fit-content;
+}
+
+.bigtitle {
+  margin: auto;
+}
+
+.smalltitle {
+  color: #4dd734;
+}
+
+.text {
+  color: #e2ae58;
+  background-color: white;
+  border-radius: 20px;
+  width: fit-content;
+  font-weight: bold;
+  margin-bottom: 125px;
+}
+
+.ollist{
+  margin-bottom: 38px;
+}
+
+.ullist {
+  margin-bottom: 15px;
+}
