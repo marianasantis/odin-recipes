@@ -1,50 +1,68 @@
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
 }
 
 body {
   background-image: url("images/odinwp.jpg");
-  background-repeat: repeat-y;
   background-size: cover;
-  text-align: center;
+  margin: 0px;
 }
 
 .main-title {
   font-size: 55px;
-  color: #66f2f3
+  color: #66f2f3;
+  text-align: center;
 }
 
 .recipe {
-  margin-top: 150px;
-  float: left;
-  margin-left: 5.5%;
   background-color: #004ef6;
+  width: 320px;
+  height: 312px;
+  border: 10px dotted white;
 }
 
 .image {
-  height: 200px;
-  width: 260px;
+  height: 220px;
+  width: 300px;
 }
 
 .imgtxt {
   font-size: 20px;
   font-weight: bolder;
-  width: 260px;
   overflow-wrap: break-word;  
   text-align: center;
+  padding: 0px 5px 5px;
 }
 
 .recipe, .image {
   border-radius: 35px;
 }
 
+.r1 {
+  margin-top: 150px;
+  margin-left: 16px;
+}
+
 .r1 .imgtxt {
   color: rgb(255, 225, 0);
 }
 
+.r2 {
+  margin-top: -312px;
+  margin-left: 352px;
+}
+
 .r2 .imgtxt {
   color: rgb(255, 255, 255);
+  margin-top: 10px;
 }
+
+.r3 {
+  margin-top: -312px;
+  margin-left: 688px;
+}
+
 .r3 .imgtxt{
   color: rgb(9, 206, 9);
 }
