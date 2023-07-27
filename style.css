@@ -4,66 +4,68 @@
 }
 
 body {
+  background-image: url("images/starsbg.jpg");
+}
+
+.container {
+  width: 900px;
+  height: 600px;
+  margin: 40px auto;
   background-image: url("images/odinwp.jpg");
   background-size: cover;
-  margin: 0px;
+  border: 10px solid blue;
 }
 
 .main-title {
-  font-size: 55px;
-  color: #66f2f3;
+  font-size: 75px;
+  color: #000000;
   text-align: center;
+  text-transform: uppercase;
+  text-decoration-line: overline;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.recipes {
+  width: 839px;
+  margin: 120px auto;
 }
 
 .recipe {
   background-color: #004ef6;
-  width: 320px;
-  height: 312px;
+  width: 260px;
+  height: 280px;
   border: 10px dotted white;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 8px;
 }
 
 .image {
-  height: 220px;
-  width: 300px;
+  height: 200px;
+  width: 240px;
 }
 
 .imgtxt {
   font-size: 20px;
-  font-weight: bolder;
-  overflow-wrap: break-word;  
+  font-weight: bolder; 
   text-align: center;
   padding: 0px 5px 5px;
+  margin-top: 5px;
 }
 
 .recipe, .image {
   border-radius: 35px;
 }
 
-.r1 {
-  margin-top: 150px;
-  margin-left: 16px;
-}
-
 .r1 .imgtxt {
   color: rgb(255, 225, 0);
 }
 
-.r2 {
-  margin-top: -312px;
-  margin-left: 352px;
-}
-
 .r2 .imgtxt {
   color: rgb(255, 255, 255);
-  margin-top: 10px;
 }
 
-.r3 {
-  margin-top: -312px;
-  margin-left: 688px;
-}
-
-.r3 .imgtxt{
+.r3 .imgtxt {
   color: rgb(9, 206, 9);
 }
 
